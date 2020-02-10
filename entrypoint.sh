@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-git ftp $INPUT_ACTION \
+git ftp catchup \
   --auto-init \
   --user $INPUT_USER \
   --passwd $INPUT_PASSWORD \
