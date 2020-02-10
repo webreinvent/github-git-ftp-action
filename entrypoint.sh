@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-if ["$ACTION" = "push" ]
+if [ "$ACTION" = 'push' ]
 then
 git ftp push \
   --auto-init \
@@ -9,7 +9,7 @@ git ftp push \
   $INPUT_URL
 fi
 
-if [ "$ACTION" = "catchup" ]
+if [ "$ACTION" = 'catchup' ]
 then
 git ftp catchup \
   --auto-init \
