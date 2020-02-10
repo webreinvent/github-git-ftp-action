@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: git-ftp push
+    - name: git-ftp-action
       uses: webreinvent/github-git-ftp-action@master
       with:
         action: "push" // push or catchup
