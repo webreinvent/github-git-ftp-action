@@ -14,7 +14,7 @@ fi
 if [ "$INPUT_ACTION" = 'catchup' ]
 then
 echo "running following command"
-echo "git ftp catup"
+echo "git ftp catchup"
 git ftp catchup \
   --auto-init \
   --user $INPUT_USER \
